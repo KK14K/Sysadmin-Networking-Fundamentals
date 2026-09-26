@@ -1,15 +1,17 @@
 # Linux Networking & System Administration Lab
 
 A hands-on lab covering core Linux system administration and network services,
-built from scratch across multiple VMs — from initial setup through DHCP, DNS,
+built from scratch across multiple VMs  from initial setup through DHCP, DNS,
 NTP, shell scripting/automation, SSH, and firewall configuration. Built for
 IE2012 (Systems and Network Programming), SLIIT.
+
+This is step by step guide
 
 ## Overview
 
 Everything here was configured and tested on real virtual machines (Kali Linux +
 2x Ubuntu, connected via bridged networking so they could communicate with each
-other and the internet), not just theory — each section documents the actual
+other and the internet), not just theory ,each section documents the actual
 commands run, the config files edited, and the verification steps used to
 confirm each service worked (e.g. confirming DHCP leases were issued correctly,
 testing DNS resolution against an external server, pinging between VMs).
@@ -37,6 +39,6 @@ testing DNS resolution against an external server, pinging between VMs).
 ## Why This Is Here
 
 This was built to get hands-on with the services that actually run the network
-layer most developers only interact with indirectly — useful grounding for
+layer most developers only interact with indirectly  useful grounding for
 security-adjacent work, since DHCP/DNS misconfiguration and firewall rules are
 common attack surfaces.
